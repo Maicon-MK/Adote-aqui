@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+
+body{
+    width: 100%;
+    height:100%;
+    background-color:rgba(241, 218, 2, 0.938) ;
+}
+
+header{ /*A faixa do menu*/
+    width: 100%;
+    height: 120px;
+
+    background-color: #dbb50d;
+
+   
+
+    padding: 40px;/*para descolar do topo*/
+
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+
+.logo{
+    
+    width: 20%;
+    flex-wrap: wrap;
+    margin-top: -74px;
+    
+   
+    
+}
+
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.menu{
+list-style: none; /*para tirar as bolinhas das listas*/
+ font-size: 20px;/*tamanho da font*/
+display:flex;/*alinhados*/
+flex-wrap: wrap;
+}
+
+
+
+.menu li a { /* Estilização do menu*/
+    color: #cccccc;
+
+    display: block;
+    text-decoration: none;
+
+    padding: 10px 20px 10px 20px;
+
+    margin-left: 20px;
+    border-radius: 15px;
+    
+}
+
+.menu li a:hover{/*efeito*/
+    color: #000000;
+
+    display: block;
+    text-decoration: none;
+    
+    background-color: #cccccc;
+    margin-left:10px ;
+
+   
+
+}
+
+
+.container{
+max-width: 1200px;
+margin: 0;
+margin-top: 5%;
+display: flex;
+flex-wrap: wrap;
+margin-left: 5%;
+
+}
+
+.container div{
+    flex: 1 1 300px;
+    margin: 15px;
+    align-items: center;
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  
+
+    }
+
+img .container:hover{
+    display: block;
+    text-decoration: none;
+    
+    background-color: #cccccc;
+    margin-left:10px ;
+
+}
+
+
+.cachorro{
+        text-align: center;
+        font-size: 30px;
+}
+
+.cachorro:hover{
+    color: #000000;
+    margin-left:10px ;
+ 
+
+    
+
+
+}
+
+img .cachorro {
+    display: block;
+    
+    
+}
+
+
+.rodape{
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    background-color: #dbb50d;
+    color: azure;
+    border-radius: 20px;
+    margin-top: 3cm;
+    box-shadow: black 5cm;
+    
+}
+
+
+
+.png{
+    width: 1.8cm;
+   margin-left: 47%;
+    justify-items: center;
+
+}
+
+
+
+
+
